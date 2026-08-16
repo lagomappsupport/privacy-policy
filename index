@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lagom 隱私權政策</title>
+<style>
+  :root {
+    --bg: #F5F0E6;
+    --surface: #FBF8F1;
+    --surface-raised: #FFFFFF;
+    --border: rgba(43, 42, 40, 0.14);
+    --text: #33312C;
+    --text-secondary: #8A8272;
+    --accent: #7C8B6F;
+    --accent-soft: rgba(124, 139, 111, 0.14);
+    --terracotta: #B8876C;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1E1B22;
+      --surface: #2C2833;
+      --surface-raised: #332E3D;
+      --border: rgba(245, 240, 230, 0.12);
+      --text: #EFE9DD;
+      --text-secondary: #9B9488;
+      --accent: #9CAC8E;
+      --accent-soft: rgba(156, 172, 142, 0.16);
+      --terracotta: #CC9A7E;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #1E1B22;
+    --surface: #2C2833;
+    --surface-raised: #332E3D;
+    --border: rgba(245, 240, 230, 0.12);
+    --text: #EFE9DD;
+    --text-secondary: #9B9488;
+    --accent: #9CAC8E;
+    --accent-soft: rgba(156, 172, 142, 0.16);
+    --terracotta: #CC9A7E;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Helvetica Neue", "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+
+  .subtitle {
+    color: var(--text-secondary);
+    font-size: 15px;
+    margin: 0 0 10px;
+  }
+
+  .meta-line {
+    color: var(--text-secondary);
+    font-size: 13.5px;
+    font-variant-numeric: tabular-nums;
+    margin: 0 0 32px;
+  }
+
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+    padding: 20px 24px;
+    margin-bottom: 44px;
+  }
+
+  .summary p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .summary strong { color: var(--text); font-weight: 600; }
+
+  section { margin-bottom: 36px; }
+
+  h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    text-wrap: balance;
+  }
+
+  p { margin: 0 0 14px; max-width: 62ch; }
+  p:last-child { margin-bottom: 0; }
+
+  ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+    max-width: 62ch;
+  }
+  ul:last-child { margin-bottom: 0; }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+
+  .field-table {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    margin: 18px 0 14px;
+    max-width: 62ch;
+  }
+
+  .field-name {
+    font-weight: 600;
+    font-size: 14.5px;
+    white-space: nowrap;
+  }
+
+  .field-desc {
+    font-size: 14.5px;
+    color: var(--text-secondary);
+  }
+
+  .contact p { color: var(--text-secondary); }
+
+  .contact-email {
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .contact-email:hover { border-bottom-color: var(--accent); }
+  .contact-email:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 12.5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <h1>Lagom 隱私權政策</h1>
+  <p class="subtitle">適用於 iOS 應用程式「Lagom」（個人生活庫存清單 App）</p>
+  <p class="meta-line">Lagom　｜　生效日期：2026 年 8 月 16 日</p>
+
+  <div class="summary">
+    <p><strong>簡短版本：</strong>Lagom 不會將任何資料上傳至伺服器，也沒有帳號系統、廣告，或第三方追蹤與分析工具。App 內建立的物品、照片、分類等資料，僅會儲存於裝置本機。</p>
+  </div>
+
+  <section>
+    <h2>資料處理方式</h2>
+    <p>Lagom 是一款完全在本機（裝置端）運作的個人物品庫存管理工具。App 內新增的物品名稱、分類、存放位置、照片、日期、備註、標籤等所有資料，僅儲存於裝置本機儲存空間，不會傳送至任何伺服器——因為 Lagom 本身並未架設伺服器，也沒有網路資料庫。</p>
+    <p>這代表：</p>
+    <ul>
+      <li>Lagom 開發端無法看到、存取、或蒐集已輸入的任何物品資料</li>
+      <li>所有資料不會被用於行銷、分析，或轉售予第三方——這些資料不會離開裝置</li>
+      <li>移除 App 時，裝置上的資料將一併移除且無法復原（除非事先透過下方「資料匯出」功能備份）</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>裝置權限的使用方式</h2>
+    <div class="field-table">
+      <span class="field-name">相機</span>
+      <span class="field-desc">用於拍攝物品照片，直接存為該筆物品的圖片，僅儲存於裝置本機</span>
+      <span class="field-name">相簿</span>
+      <span class="field-desc">用於從既有照片中選擇一張作為物品照片，同樣僅儲存於裝置本機</span>
+    </div>
+    <p>這兩項權限皆需手動觸發（點擊「新增照片」時才會請求），Lagom 不會在背景存取相機或相簿，亦不會讀取主動選擇範圍以外的任何照片。</p>
+  </section>
+
+  <section>
+    <h2>應用程式內購買</h2>
+    <p>Lagom 提供一項一次性付費的內購項目。所有付款流程皆由 Apple 的 App Store 處理，信用卡卡號或其他付款資訊不會被 Lagom 開發端接觸或儲存。Apple 確認交易成功後，僅會於裝置本機記錄「已解鎖」狀態，同樣不會上傳至任何伺服器。</p>
+  </section>
+
+  <section>
+    <h2>資料匯出與分享</h2>
+    <p>Lagom 提供「匯出資料」功能，可將物品資料打包為 JSON 檔案，方便備份或搬移至其他裝置。此功能會呼叫 iOS 系統原生的分享面板，檔案實際儲存或傳送的位置（例如「檔案」App、AirDrop、Email 等）由操作當下自行決定——匯出的檔案不會被自動傳送至任何地方。</p>
+  </section>
+
+  <section>
+    <h2>不會進行的資料處理</h2>
+    <ul>
+      <li>不使用任何分析或行為追蹤工具（例如 Google Analytics、Firebase Analytics）</li>
+      <li>不投放廣告，也不使用任何廣告聯播網 SDK</li>
+      <li>不要求註冊帳號或登入，不蒐集姓名、Email、電話等個人身分資訊</li>
+      <li>不存取通訊錄、定位資訊、或其他與物品庫存管理無關的裝置資料</li>
+      <li>不與任何第三方分享、出售、或交換資料——Lagom 並無可供分享的使用者資料</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>兒童隱私</h2>
+    <p>Lagom 並非針對兒童設計，亦不會刻意蒐集 13 歲以下兒童的個人資料。由於 App 本身不蒐集任何使用者資料，此原則在實務上自然成立。</p>
+  </section>
+
+  <section>
+    <h2>政策異動</h2>
+    <p>若本政策內容有所更新，將於本頁面修改並更新上方之「生效日期」。建議於 App 版本更新後，回來查看本頁面確認是否有異動。</p>
+  </section>
+
+  <section class="contact">
+    <h2>聯絡方式</h2>
+    <p>若對本隱私權政策，或 Lagom 處理資料的方式有任何疑問，歡迎透過以下方式聯絡：</p>
+    <p>Email： <a class="contact-email" href="mailto:lagom.app.support@gmail.com">lagom.app.support@gmail.com</a></p>
+  </section>
+
+  <footer>本頁面為 Lagom App 隱私權政策，僅適用於本 App 之使用範圍。</footer>
+</div>
+
+</body>
+</html>
